@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/collection-strapis",
+      "handler": "collection-strapi.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/collection-strapis/count",
+      "handler": "collection-strapi.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/collection-strapis/:id",
+      "handler": "collection-strapi.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/collection-strapis",
+      "handler": "collection-strapi.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/collection-strapis/:id",
+      "handler": "collection-strapi.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/collection-strapis/:id",
+      "handler": "collection-strapi.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
